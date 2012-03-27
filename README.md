@@ -1,5 +1,5 @@
 PHP 2 JQM
-========
+=========
 
 Create jQuery Mobile apps with a PHP OO aproach.
 
@@ -34,4 +34,12 @@ Example:
         
     
 	}
+
+
+Install
+=======
+
+Clone and put files in a web directory. Enjoy :)
+
+
 

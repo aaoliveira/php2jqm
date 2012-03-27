@@ -1,5 +1,4 @@
-<?php
-error_reporting(E_ALL);
+﻿<?php
 /**
  * Index file
  * Don't edit this file!
