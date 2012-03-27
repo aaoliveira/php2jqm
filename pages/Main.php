@@ -14,7 +14,7 @@ class Main extends \Mobile\Page {
         components using a simple object orientation approach.
 	</p>
         <p>
-        All this site was build with php2jqm and the source can be viewed in the <a href=\"http://code.google.com/p/zenmo/\">google code</a>. 
+        All this site was build with php2jqm and the source can be viewed in the <a href=\"https://github.com/danielps/php2jqm\">github</a>. 
         </p>
         ";
 
