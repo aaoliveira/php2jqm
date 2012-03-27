@@ -5,6 +5,8 @@ error_reporting(E_ALL);
  * Don't edit this file!
  * Go to pages folder to create your mobile app
  * */
+error_reporting(E_ALL);
+ini_set('display_errors', 'On');
 include("../framework/autoload.php");
 $conf=include("../config.php");
 set_include_path( dirname(__FILE__) . "/../");
