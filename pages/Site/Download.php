@@ -8,7 +8,7 @@ class Download extends \Mobile\Page {
         parent::__construct("PHP2JQM Download");
         
         
-        $this->add("php2jqm is beta. Source at: ???");
+        $this->add("php2jqm is beta. Source at: https://github.com/danielps/php2jqm");
         
     }       
     
