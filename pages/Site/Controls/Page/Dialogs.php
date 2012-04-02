@@ -21,6 +21,7 @@ class Dialogs extends \Mobile\Page {
         
         $this->add(new \Controls\Button($this->go("Site\Controls\Foo"), "With Transition FLIP",true,  \Mobile\Transition::FLIP,true));
         
+        $this->addFooterButton("Source", "https://github.com/danielps/php2jqm/blob/master/pages/Site/Controls/Page/Dialogs.php");
         
         
     }

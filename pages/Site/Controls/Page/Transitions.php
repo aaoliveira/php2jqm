@@ -18,6 +18,8 @@ class Transitions extends \Mobile\Page {
                 
         $this->add($lstBox);
         
+        $this->addFooterButton("Source", "https://github.com/danielps/php2jqm/blob/master/pages/Site/Controls/Page/Transitions.php");
+        
     }
 
 }

@@ -20,6 +20,8 @@ class PageLinking extends \Mobile\Page {
         
         $this->add($item);
         
+        $this->addFooterButton("Source", "https://github.com/danielps/php2jqm/blob/master/pages/Site/Controls/Page/PageLinking.php");
+        
     }
 
 }

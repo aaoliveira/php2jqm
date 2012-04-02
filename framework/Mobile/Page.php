@@ -41,7 +41,7 @@ class Page extends \Component {
         $this->headerNavButtons[] = new \Mobile\ListLink($url, $title, $transition, $isDialog, $icon);
     }
 
-    public function addFooterButton($position, $title, $url, $icon="", $isDialog=false, $transition="") {
+    public function addFooterButton($title, $url, $position = \Html\Position::LEFT, $icon="", $isDialog=false, $transition="") {
         $this->footerButtons[] = new \Mobile\Link($url, $title, $transition, $isDialog, $icon, $position);
     }
 
