@@ -8,6 +8,7 @@ class Page extends \Component
              
              /* Search for a Mobile Page */
              $p = isset($_GET['p'])?$_GET['p']:\App::getInstance()->getConf("main_page");
+             $p = str_replace('\\\\', '\\', $p);
              $p = "\\pages\\$p";
              $pInstance = new $p;
              
