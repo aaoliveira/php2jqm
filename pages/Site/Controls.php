@@ -47,6 +47,7 @@ class Controls extends \Mobile\Page {
         
         $this->add($menu);
         
+        $this->addFooterButton("Source", "https://github.com/danielps/php2jqm/blob/master/pages/Site/Controls.php");
         
     }
         
