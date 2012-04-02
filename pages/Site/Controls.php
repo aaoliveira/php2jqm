@@ -10,8 +10,8 @@ class Controls extends \Mobile\Page {
                
         $menu = new \Controls\ListViewBox("Page");
         $menu->add(new \Controls\ListView\ItemLink($this->go("Site\Controls\Page\PageLinking"),"Page Linking"));
-        $menu->add(new \Controls\ListView\ItemLink($this->go("\Controls\Page\Transitions"),"Transitions"));
-        $menu->add(new \Controls\ListView\ItemLink($this->go("\Controls\Page\Dialogs"),"Dialogs"));
+        $menu->add(new \Controls\ListView\ItemLink($this->go("Site\Controls\Page\Transitions"),"Transitions"));
+        $menu->add(new \Controls\ListView\ItemLink($this->go("Site\Controls\Page\Dialogs"),"Dialogs"));
         $this->add($menu);
         
         $menu = new \Controls\ListViewBox("ToolBar");
